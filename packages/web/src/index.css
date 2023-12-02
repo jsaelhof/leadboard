@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Circular;
+  font-weight: 400;
+  src: url(/fonts/Circular/CircularStd-Book.woff);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Circular;
+  font-weight: 700;
+  src: url(/fonts/Circular/CircularStd-Bold.woff);
+  font-display: swap;
+}
+
+body {
+  font-family: "Circular";
+  margin: 16px 32px;
+}

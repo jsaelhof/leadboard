@@ -1,0 +1,10 @@
+{
+  "name": "leaderboard",
+  "scripts": {
+    "dev": "yarn workspaces foreach -vpi run dev"
+  },
+  "packageManager": "yarn@3.2.2",
+  "workspaces": [
+    "packages/*"
+  ]
+}
