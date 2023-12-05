@@ -313,219 +313,139 @@
   ],
   "results": [
     {
-      "id": "1",
+      "id": "9ee35193-4fcf-4073-bad2-ddf75cc68dd0",
+      "players": [
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "rolltothetopjourneys",
+      "date": "2023-12-02T23:45:18.931Z"
+    },
+    {
+      "id": "3ebd1f9a-d827-4fa0-841b-62a14e6c9c0e",
+      "players": [
+        "ashlyn",
+        "jason"
+      ],
+      "winner": "tie",
+      "game": "twinpalms",
+      "date": "2023-12-02T23:46:33.458Z"
+    },
+    {
+      "id": "ced471af-de82-4b7a-af80-de1e86a5e0fe",
+      "players": [
+        "ashlyn",
+        "jason"
+      ],
+      "winner": "ashlyn",
+      "game": "piratekapern",
+      "date": "2023-12-02T23:46:56.568Z"
+    },
+    {
+      "id": "e6d619ac-863a-47d7-b3c1-99147aa88d91",
+      "players": [
+        "ashlyn",
+        "jason"
+      ],
+      "winner": "ashlyn",
+      "game": "piratekapern",
+      "date": "2023-12-02T23:47:00.672Z"
+    },
+    {
+      "id": "368b3c97-2378-4f0d-8a1e-1dd0f93d7d2d",
+      "players": [
+        "ashlyn",
+        "jason"
+      ],
+      "winner": "ashlyn",
+      "game": "piratekapern",
+      "date": "2023-12-03T16:12:07.462Z"
+    },
+    {
+      "id": "857b00f0-f437-44bb-96f3-5a3ed06dbc8c",
+      "players": [
+        "ashlyn",
+        "jason"
+      ],
+      "winner": "ashlyn",
+      "game": "cantstop",
+      "date": "2023-12-03T16:18:28.510Z"
+    },
+    {
+      "id": "8b689e38-9a49-4276-a5d9-9fde4612e30d",
+      "players": [
+        "ashlyn",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "cantstop",
+      "date": "2023-12-03T16:29:30.936Z"
+    },
+    {
+      "id": "c00c5b50-d4f4-4e95-984f-058299b5a737",
       "players": [
         "jason",
         "lisa",
-        "ashlyn",
-        "cole"
-      ],
-      "winner": "ashlyn",
-      "game": "piratekapern",
-      "date": "2023-01-01T00:00:00-06:00"
-    },
-    {
-      "id": "2",
-      "players": [
-        "jason",
         "ashlyn"
       ],
       "winner": "jason",
-      "game": "lostcities",
-      "date": "2023-01-01T00:00:00-06:00"
-    },
-    {
-      "id": "3",
-      "players": [
-        "jason",
-        "ashlyn"
-      ],
-      "winner": "ashlyn",
-      "game": "lostcities",
-      "date": "2023-01-01T00:00:00-06:00"
-    },
-    {
-      "id": "71126f2c-b3ea-4208-a607-14ead7361745",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "ashlyn",
       "game": "piratekapern",
-      "date": "2023-11-29T07:13:11.759Z"
+      "date": "2023-12-03T16:52:25.764Z"
     },
     {
-      "id": "05b0c4fa-1258-4b87-89ec-22e7f69bdee7",
+      "id": "88018d25-7baf-46c3-b3bf-df4c74bdc6d1",
       "players": [
         "ashlyn",
-        "cole",
         "jason",
         "lisa"
       ],
-      "winner": "cole",
+      "winner": "ashlyn",
       "game": "rolltothetopjourneys",
-      "date": "2023-11-29T07:13:36.305Z"
+      "date": "2023-12-03T17:07:59.055Z"
     },
     {
-      "id": "79ea8ead-0d2a-4f90-bcb6-c9117977e77a",
+      "id": "2a88f39b-cd57-4337-a743-d4076610d096",
       "players": [
-        "ashlyn",
-        "cole",
         "jason",
         "lisa"
       ],
-      "winner": "ashlyn",
+      "winner": "tie",
       "game": "piratekapern",
-      "date": "2023-11-29T07:15:27.575Z"
+      "date": "2023-12-03T23:29:25.003Z"
     },
     {
-      "id": "9957390f-1bac-418c-9bc1-39c7a93df92f",
+      "id": "0049c2bf-428c-45dc-881b-39dfa7266f89",
       "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "ashlyn",
-      "game": "piratekapern",
-      "date": "2023-11-29T07:20:13.715Z"
-    },
-    {
-      "id": "c4e8530e-4636-4c10-acf5-100a70ea9419",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "ashlyn",
-      "game": "piratekapern",
-      "date": "2023-11-29T07:21:57.268Z"
-    },
-    {
-      "id": "1ff147fd-9174-44b4-807b-3f922113e7b3",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "ashlyn",
-      "game": "piratekapern",
-      "date": "2023-11-29T07:22:14.096Z"
-    },
-    {
-      "id": "db87ee3c-5818-4c0e-80e0-c9b541b1da52",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "ashlyn",
-      "game": "piratekapern",
-      "date": "2023-11-29T07:23:38.306Z"
-    },
-    {
-      "id": "0d4e3040-3365-4ee1-88a7-a2f37088212a",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "lisa",
-      "game": "rolltothetopjourneys",
-      "date": "2023-11-29T07:24:04.969Z"
-    },
-    {
-      "id": "f03eebe5-34ff-45a7-846c-0eab5f17c55c",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "ashlyn",
-      "game": "piratekapern",
-      "date": "2023-11-29T07:25:12.284Z"
-    },
-    {
-      "id": "237f3f13-3697-40dd-9103-3e4469ee7979",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "ashlyn",
-      "game": "piratekapern",
-      "date": "2023-11-29T07:27:37.370Z"
-    },
-    {
-      "id": "4d4e3576-7fff-4eec-9ef6-9302a472ab2f",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "ashlyn",
-      "game": "piratekapern",
-      "date": "2023-11-29T07:28:14.660Z"
-    },
-    {
-      "id": "ff723068-4eff-431b-b5ef-56766ef1b0a2",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "ashlyn",
-      "game": "piratekapern",
-      "date": "2023-11-29T07:29:25.116Z"
-    },
-    {
-      "id": "a4fdf47a-556e-4837-8698-e0b5cbebb25e",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "ashlyn",
-      "game": "piratekapern",
-      "date": "2023-11-29T07:32:31.173Z"
-    },
-    {
-      "id": "fcf9e549-40a9-414f-b83f-b24556ca7554",
-      "players": [
-        "ashlyn",
-        "cole",
         "jason",
         "lisa"
       ],
       "winner": "jason",
       "game": "rolltothetopjourneys",
-      "date": "2023-11-29T07:33:15.790Z"
+      "date": "2023-12-03T23:41:05.699Z"
     },
     {
-      "id": "e0856e41-ba8a-4d76-9f71-8a272c889d39",
+      "id": "954aab66-faaa-453c-992b-b5d9ee3cfaf3",
       "players": [
-        "ashlyn",
-        "cole",
         "jason",
         "lisa"
       ],
       "winner": "lisa",
-      "game": "rolltothetopjourneys",
-      "date": "2023-11-29T07:33:25.362Z"
+      "game": "cantstopexpress",
+      "date": "2023-12-03T23:47:28.956Z"
     },
     {
-      "id": "5e2220d2-579f-494c-8d59-ff6af40f14dd",
+      "id": "140a41d1-4702-4f3c-a344-2d00cb5fef88",
+      "players": [
+        "ashlyn",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "yatzy",
+      "date": "2023-12-04T02:17:16.744Z"
+    },
+    {
+      "id": "7d227a1c-776c-48ae-9105-3809df30ef05",
       "players": [
         "ashlyn",
         "cole",
@@ -533,34 +453,11 @@
         "lisa"
       ],
       "winner": "jason",
-      "game": "lostcities",
-      "date": "2023-11-29T07:33:40.257Z"
+      "game": "nextstation",
+      "date": "2023-12-04T03:00:23.165Z"
     },
     {
-      "id": "a5893034-b4f7-4e80-aee5-82b8055bbada",
-      "players": [
-        "ashlyn",
-        "jason",
-        "lisa"
-      ],
-      "winner": "jason",
-      "game": "lostcities",
-      "date": "2023-11-29T07:33:50.163Z"
-    },
-    {
-      "id": "2ab3086c-0d64-4a50-ad32-c8ddd0c894dc",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "jason",
-      "game": "rolltothetopjourneys",
-      "date": "2023-11-30T02:28:28.569Z"
-    },
-    {
-      "id": "5056be9e-2710-4003-b16d-8a8b9e7f1662",
+      "id": "429b1c31-9f47-4bfe-8914-08d56d4ee102",
       "players": [
         "ashlyn",
         "cole",
@@ -569,100 +466,7 @@
       ],
       "winner": "ashlyn",
       "game": "piratekapern",
-      "date": "2023-11-30T03:14:15.092Z"
-    },
-    {
-      "id": "0f1a813f-e25c-471d-8b5f-ed02957721fe",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "jason",
-      "game": "timelinetwist",
-      "date": "2023-11-30T03:21:14.800Z"
-    },
-    {
-      "id": "e6ca336f-7ef1-4879-9b6a-e79b12fb7cfd",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "ashlyn",
-      "game": "piratekapern",
-      "date": "2023-11-30T14:42:46.967Z"
-    },
-    {
-      "id": "2f878e84-006b-4464-a190-7a1576d6fb8c",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "lisa",
-      "game": "lostcities",
-      "date": "2023-11-30T17:05:01.011Z"
-    },
-    {
-      "id": "137536b1-9be1-4b8b-b4ce-a7a4799e2156",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "lisa",
-      "game": "lostcities",
-      "date": "2023-11-30T17:05:17.694Z"
-    },
-    {
-      "id": "4c16be70-b80d-4824-b0f0-9fb87c75ce49",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "ashlyn",
-      "game": "piratekapern",
-      "date": "2023-12-01T04:00:41.082Z"
-    },
-    {
-      "id": "aa20dbf3-913e-437f-8c44-c5bb3c10811c",
-      "players": [
-        "jason",
-        "lisa"
-      ],
-      "winner": "jason",
-      "game": "piratekapern",
-      "date": "2023-12-01T22:52:03.626Z"
-    },
-    {
-      "id": "b698a8a7-5ae8-4de2-9c4c-80abc8a89879",
-      "players": [
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "lisa",
-      "game": "piratekapern",
-      "date": "2023-12-01T22:52:17.346Z"
-    },
-    {
-      "id": "b65edbc9-6318-472f-a22e-39c02dce0569",
-      "players": [
-        "ashlyn",
-        "cole",
-        "jason",
-        "lisa"
-      ],
-      "winner": "ashlyn",
-      "game": "piratekapern",
-      "date": "2023-12-01T23:00:28.536Z"
+      "date": "2023-12-05T03:40:35.243Z"
     }
   ]
 }

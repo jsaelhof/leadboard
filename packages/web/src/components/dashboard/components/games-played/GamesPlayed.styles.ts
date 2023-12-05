@@ -41,6 +41,9 @@ export const PlayerChip = styled("div", {
       ashlyn: {
         backgroundColor: "Pink",
       },
+      tie: {
+        backgroundColor: "LightGray",
+      },
     },
   },
 });

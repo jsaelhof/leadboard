@@ -42,10 +42,15 @@ export const Dashboard = () => {
         {
           counts: (allResults ? allPlayers : selectedPlayers).reduce<{
             [key: string]: number;
-          }>((acc, id) => {
-            acc[id] = 0;
-            return acc;
-          }, {}),
+          }>(
+            (acc, id) => {
+              acc[id] = 0;
+              return acc;
+            },
+            {
+              tie: 0,
+            }
+          ),
           games: [],
         }
       ),
@@ -79,7 +84,7 @@ export const Dashboard = () => {
         onSelectPlayers={setSelectedPlayers}
       />
       <Layout>
-        {leaderboard.length >= 2 ? (
+        {selectedPlayers.length >= 2 ? (
           <>
             {!allResults && <AddResult selectedPlayers={selectedPlayers} />}
             {!allResults && <AddGame />}

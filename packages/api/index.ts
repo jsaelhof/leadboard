@@ -40,7 +40,7 @@ app.post(
       date &&
       winner &&
       players.length >= 2 &&
-      players.includes(winner)
+      (winner === "tie" || players.includes(winner))
     ) {
       const data = readFileSync("./db.json", "utf8");
       const json = JSON.parse(data);

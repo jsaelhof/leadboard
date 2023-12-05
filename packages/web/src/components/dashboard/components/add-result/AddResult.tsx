@@ -16,7 +16,7 @@ export const AddResult = ({ selectedPlayers }: AddResultProps) => {
 
   // If the currently set winner is not in the new list of winners, then the previously set winner value is invalid for the new group of players. Reset it.
   useEffect(() => {
-    if (!selectedPlayers.includes(winner)) {
+    if (winner !== "tie" && !selectedPlayers.includes(winner)) {
       setWinner(selectedPlayers[0]);
     }
   }, [selectedPlayers, winner]);
@@ -78,6 +78,7 @@ export const AddResult = ({ selectedPlayers }: AddResultProps) => {
                 {playersById[id].name}
               </option>
             ))}
+            <option value="tie">Tie</option>
           </Select>
         </div>
 

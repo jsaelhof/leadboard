@@ -31,6 +31,9 @@ export const PlayerName = styled("div", {
       ashlyn: {
         backgroundColor: "Pink",
       },
+      tie: {
+        backgroundColor: "LightGray",
+      },
     },
   },
 });

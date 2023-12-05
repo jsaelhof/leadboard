@@ -17,6 +17,7 @@ export type GamesPlayedProps = {
 };
 
 export const GamesPlayed = ({ results }: GamesPlayedProps) => {
+  console.log(results);
   const { gamesById, playersById } = useAppContext();
 
   return (
@@ -42,7 +43,7 @@ export const GamesPlayed = ({ results }: GamesPlayedProps) => {
               <div>{gamesById[game].name}</div>
               <PlayerName>
                 <PlayerChip playerId={winner as PlayerIdVariant} />
-                {playersById[winner].name}
+                {winner === "tie" ? "Tie" : playersById[winner].name}
               </PlayerName>
             </Fragment>
           );
