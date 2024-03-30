@@ -16,26 +16,11 @@ export const PlayerName = styled("div", {
   gap: 16,
   alignItems: "center",
   boxShadow: "0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)",
-
-  variants: {
-    playerId: {
-      jason: {
-        backgroundColor: "Orange",
-      },
-      lisa: {
-        backgroundColor: "CornflowerBlue",
-      },
-      cole: {
-        backgroundColor: "Red",
-      },
-      ashlyn: {
-        backgroundColor: "Pink",
-      },
-      tie: {
-        backgroundColor: "LightGray",
-      },
-    },
-  },
 });
 
 export const Count = styled("div", { fontSize: 32, textAlign: "right" });
+
+export const Chart = styled("div", {
+  height: 200,
+  marginTop: 24,
+});

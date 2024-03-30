@@ -3,12 +3,8 @@ import { useAppContext } from "../../../../context/AppContext";
 import { Label, Layout, Select } from "./AddResult.styles";
 import { Button } from "../../../button/Button";
 
-export type AddResultProps = {
-  selectedPlayers: string[];
-};
-
-export const AddResult = ({ selectedPlayers }: AddResultProps) => {
-  const { games, playersById, insertResult } = useAppContext();
+export const AddResult = () => {
+  const { games, playersById, insertResult, selectedPlayers } = useAppContext();
 
   const [game, setGame] = useState(games[0].id);
   const [winner, setWinner] = useState(selectedPlayers[0]);

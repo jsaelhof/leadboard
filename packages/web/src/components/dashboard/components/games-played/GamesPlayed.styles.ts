@@ -5,6 +5,7 @@ export const Layout = styled("div", {
   gridTemplateColumns: "max-content max-content auto",
   columnGap: 32,
   rowGap: 8,
+  alignItems: "baseline",
 });
 
 export const ColumnHeader = styled("div", {
@@ -22,28 +23,13 @@ export const PlayerName = styled("div", {
 });
 
 export const PlayerChip = styled("div", {
-  width: 16,
-  height: 16,
+  width: 10,
+  height: 10,
   borderRadius: "50%",
   boxShadow: "inset 0 0 1.5px rgba(0,0,0,0.5)",
+});
 
-  variants: {
-    playerId: {
-      jason: {
-        backgroundColor: "Orange",
-      },
-      lisa: {
-        backgroundColor: "CornflowerBlue",
-      },
-      cole: {
-        backgroundColor: "Red",
-      },
-      ashlyn: {
-        backgroundColor: "Pink",
-      },
-      tie: {
-        backgroundColor: "LightGray",
-      },
-    },
-  },
+export const GameDate = styled("div", {
+  fontSize: "0.75em",
+  color: "#666",
 });

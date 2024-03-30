@@ -1,6 +1,5 @@
-import { VariantProps } from "@stitches/react";
 import { useAppContext } from "../../../../context/AppContext";
-import { Count, Layout, PlayerName } from "./Leaderboard.styles";
+import { Chart, Count, Layout, PlayerName } from "./Leaderboard.styles";
 import Icon from "@mdi/react";
 import {
   mdiController,
@@ -9,11 +8,12 @@ import {
   mdiTeddyBear,
   mdiTie,
 } from "@mdi/js";
-
-type PlayerIdVariant = VariantProps<typeof PlayerName>["playerId"];
+import { ResponsivePie } from "@nivo/pie";
+import { animated } from "@react-spring/web";
 
 export type LeaderboardProps = {
   leaderboard: [string, number][];
+  gamesPlayed: number;
 };
 
 const icons: { [key: string]: string } = {
@@ -24,8 +24,7 @@ const icons: { [key: string]: string } = {
   tie: mdiTie,
 };
 
-export const Leaderboard = ({ leaderboard }: LeaderboardProps) => {
-  console.log(leaderboard);
+export const Leaderboard = ({ leaderboard, gamesPlayed }: LeaderboardProps) => {
   const { playersById } = useAppContext();
 
   return (
@@ -35,19 +34,62 @@ export const Leaderboard = ({ leaderboard }: LeaderboardProps) => {
         {leaderboard.map(([playerId, count]) =>
           playerId === "tie" && count === 0 ? null : (
             <div key={playerId}>
-              <PlayerName playerId={playerId as PlayerIdVariant}>
+              <PlayerName
+                css={{
+                  backgroundColor: playersById[playerId].color,
+                }}
+              >
                 <Icon
                   path={icons[playerId]}
                   size={1.5}
                   style={{ opacity: 0.4 }}
                 />
-                <div>
-                  {playerId === "tie" ? "Tie" : playersById[playerId].name}
-                </div>
+                <div>{playersById[playerId].name}</div>
                 <Count>{count}</Count>
               </PlayerName>
             </div>
           )
+        )}
+
+        {gamesPlayed > 0 && (
+          <Chart>
+            <ResponsivePie
+              data={leaderboard.map(([playerId, count]) => ({
+                id: playerId,
+                label: playersById[playerId].name,
+                value: count,
+                color: playersById[playerId].color,
+              }))}
+              colors={{ datum: "data.color" }}
+              animate={false}
+              innerRadius={0.5}
+              arcLabelsSkipAngle={15}
+              arcLabelsTextColor="black"
+              arcLabelsComponent={({ datum, style }) => (
+                // Have to use an animate.g to apply the style to position the labels even though I've disabled animation on the chart because the labels act weird when animating.
+                <animated.g transform={style.transform}>
+                  <text
+                    textAnchor="middle"
+                    dominantBaseline="central"
+                    fill="black"
+                    style={{
+                      fontSize: 16,
+                      fontWeight: 700,
+                    }}
+                  >
+                    {`${((datum.value / gamesPlayed) * 100).toFixed(0)}%`}
+                  </text>
+                </animated.g>
+              )}
+              valueFormat={(value) =>
+                `${((value / gamesPlayed) * 100).toFixed(0)}%`
+              }
+              enableArcLinkLabels={false}
+              sortByValue={true}
+              padAngle={1}
+              cornerRadius={4}
+            />
+          </Chart>
         )}
       </Layout>
     </div>

@@ -1,4 +1,4 @@
-import { Player } from "../../../../types";
+import React from "react";
 import {
   Layout,
   PlayersLayout,
@@ -6,22 +6,17 @@ import {
   SwitchRoot,
   SwitchThumb,
 } from "./SelectPlayers.styles";
+import { useAppContext } from "../../../../context/AppContext";
 
-export type SelectPlayersProps = {
-  allResults: boolean;
-  onAllResultsChanged: (allResults: boolean) => void;
-  players: Player[];
-  selectedPlayers: string[];
-  onSelectPlayers: (selectedPlayers: string[]) => void;
-};
+export const SelectPlayers = React.memo(() => {
+  const {
+    players,
+    selectedPlayers,
+    setSelectedPlayers,
+    allResults,
+    setAllResults,
+  } = useAppContext();
 
-export const SelectPlayers = ({
-  allResults,
-  onAllResultsChanged,
-  players,
-  selectedPlayers,
-  onSelectPlayers,
-}: SelectPlayersProps) => {
   return (
     <Layout>
       <SwitchLayout>
@@ -29,7 +24,7 @@ export const SelectPlayers = ({
         <SwitchRoot
           id="all"
           checked={allResults}
-          onCheckedChange={onAllResultsChanged}
+          onCheckedChange={setAllResults}
         >
           <SwitchThumb />
         </SwitchRoot>
@@ -52,7 +47,8 @@ export const SelectPlayers = ({
               value={id}
               checked={selectedPlayers.includes(id)}
               onChange={({ target: { checked, value } }) =>
-                onSelectPlayers(
+                (checked || (!checked && selectedPlayers.length > 2)) &&
+                setSelectedPlayers(
                   checked
                     ? [...selectedPlayers, value]
                     : [...selectedPlayers].filter(
@@ -67,4 +63,4 @@ export const SelectPlayers = ({
       </PlayersLayout>
     </Layout>
   );
-};
+});

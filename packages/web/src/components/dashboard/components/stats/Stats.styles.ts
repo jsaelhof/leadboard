@@ -1,8 +1,11 @@
 import { styled } from "@stitches/react";
 
+export const ChartTitle = styled("div", {
+  fontWeight: "bold",
+  marginBottom: 8,
+});
+
 export const Layout = styled("div", {
   display: "grid",
-  gridTemplateColumns: "auto auto 1fr",
-  rowGap: 32,
-  columnGap: 128,
+  rowGap: 16,
 });

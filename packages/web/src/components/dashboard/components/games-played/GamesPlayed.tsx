@@ -4,20 +4,17 @@ import { useAppContext } from "../../../../context/AppContext";
 import { format, isSameDay, parseISO, subHours } from "date-fns";
 import {
   ColumnHeader,
+  GameDate,
   Layout,
   PlayerChip,
   PlayerName,
 } from "./GamesPlayed.styles";
-import { VariantProps } from "@stitches/react";
-
-type PlayerIdVariant = VariantProps<typeof PlayerChip>["playerId"];
 
 export type GamesPlayedProps = {
   results: Result[];
 };
 
 export const GamesPlayed = ({ results }: GamesPlayedProps) => {
-  console.log(results);
   const { gamesById, playersById } = useAppContext();
 
   return (
@@ -35,15 +32,19 @@ export const GamesPlayed = ({ results }: GamesPlayedProps) => {
 
           return (
             <Fragment key={id}>
-              <div>
+              <GameDate>
                 {i === 0 || !isSameDay(date, prevDate)
                   ? format(subHours(date, 6), "MMM dd")
                   : null}
-              </div>
+              </GameDate>
               <div>{gamesById[game].name}</div>
               <PlayerName>
-                <PlayerChip playerId={winner as PlayerIdVariant} />
-                {winner === "tie" ? "Tie" : playersById[winner].name}
+                <PlayerChip
+                  css={{
+                    backgroundColor: playersById[winner].color,
+                  }}
+                />
+                {playersById[winner].name}
               </PlayerName>
             </Fragment>
           );

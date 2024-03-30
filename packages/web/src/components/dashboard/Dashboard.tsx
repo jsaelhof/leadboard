@@ -7,18 +7,18 @@ import { useAppContext } from "../../context/AppContext";
 import { AddResult } from "./components/add-result/AddResult";
 import { AddGame } from "./components/add-game/AddGame";
 import { Layout } from "./Dashboard.styles";
+import Stats from "./components/stats/Stats";
 
 export const Dashboard = () => {
-  const { players, results } = useAppContext();
-
-  const allPlayers = useMemo(() => players.map(({ id }) => id), [players]);
-  const [selectedPlayers, setSelectedPlayers] = useState<string[]>([]);
-  const [allResults, setAllResults] = useState(false);
-
-  // Initialize selected players but we have to wait for the app context to have loaded the data.
-  useEffect(() => {
-    setSelectedPlayers(players.map(({ id }) => id));
-  }, [players]);
+  const {
+    players,
+    results,
+    allPlayers,
+    selectedPlayers,
+    setSelectedPlayers,
+    allResults,
+    setAllResults,
+  } = useAppContext();
 
   const { counts, games } = useMemo(
     () =>
@@ -57,8 +57,6 @@ export const Dashboard = () => {
     [allPlayers, allResults, results, selectedPlayers]
   );
 
-  console.log(games);
-
   const leaderboard = useMemo(
     () =>
       Object.entries(counts).sort(([, a], [, b]) => {
@@ -76,20 +74,16 @@ export const Dashboard = () => {
 
   return (
     <div>
-      <SelectPlayers
-        allResults={allResults}
-        onAllResultsChanged={setAllResults}
-        players={players}
-        selectedPlayers={selectedPlayers}
-        onSelectPlayers={setSelectedPlayers}
-      />
+      <SelectPlayers />
       <Layout>
         {selectedPlayers.length >= 2 ? (
           <>
-            {!allResults && <AddResult selectedPlayers={selectedPlayers} />}
+            {!allResults && <AddResult />}
             {!allResults && <AddGame />}
-            <Leaderboard leaderboard={leaderboard} />
+            <div />
+            <Leaderboard leaderboard={leaderboard} gamesPlayed={games.length} />
             <GamesPlayed results={games} />
+            <Stats results={games} />
           </>
         ) : (
           <div>Please choose at least two players</div>
