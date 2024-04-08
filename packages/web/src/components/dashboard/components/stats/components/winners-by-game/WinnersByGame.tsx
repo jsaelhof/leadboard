@@ -40,8 +40,6 @@ const WinnersByGame = ({ results }: WinnersByGameProps) => {
     [results]
   );
 
-  console.log(winnerByGame);
-
   const chartData = useMemo(
     () =>
       Object.entries(winnerByGame)
