@@ -6,6 +6,8 @@ export const Layout = styled("div", {
   columnGap: 32,
   rowGap: 8,
   alignItems: "baseline",
+  overflowY: "scroll",
+  height: 560,
 });
 
 export const ColumnHeader = styled("div", {

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 import { Result } from "../../types";
 import { GamesPlayed } from "./components/games-played/GamesPlayed";
 import { Leaderboard } from "./components/leaderboard/Leaderboard";
@@ -6,19 +6,12 @@ import { SelectPlayers } from "./components/select-players/SelectPlayers";
 import { useAppContext } from "../../context/AppContext";
 import { AddResult } from "./components/add-result/AddResult";
 import { AddGame } from "./components/add-game/AddGame";
-import { Layout } from "./Dashboard.styles";
+import { Layout, LayoutLeaderboard } from "./Dashboard.styles";
 import Stats from "./components/stats/Stats";
 
 export const Dashboard = () => {
-  const {
-    players,
-    results,
-    allPlayers,
-    selectedPlayers,
-    setSelectedPlayers,
-    allResults,
-    setAllResults,
-  } = useAppContext();
+  const { players, results, allPlayers, selectedPlayers, allResults } =
+    useAppContext();
 
   const { counts, games } = useMemo(
     () =>
@@ -75,20 +68,27 @@ export const Dashboard = () => {
   return (
     <div>
       <SelectPlayers />
-      <Layout>
-        {selectedPlayers.length >= 2 ? (
-          <>
-            {!allResults && <AddResult />}
-            {!allResults && <AddGame />}
-            <div />
+      {selectedPlayers.length >= 2 ? (
+        <Layout>
+          {!allResults && (
+            <div>
+              <AddResult />
+              <AddGame />
+            </div>
+          )}
+
+          <LayoutLeaderboard>
             <Leaderboard leaderboard={leaderboard} gamesPlayed={games.length} />
             <GamesPlayed results={games} />
+          </LayoutLeaderboard>
+
+          <div>
             <Stats results={games} />
-          </>
-        ) : (
-          <div>Please choose at least two players</div>
-        )}
-      </Layout>
+          </div>
+        </Layout>
+      ) : (
+        <div>Please choose at least two players</div>
+      )}
     </div>
   );
 };

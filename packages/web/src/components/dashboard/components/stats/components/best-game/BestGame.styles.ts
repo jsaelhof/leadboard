@@ -2,6 +2,7 @@ import { styled } from "@stitches/react";
 
 export const Layout = styled("div", {
   display: "grid",
+  gridTemplateColumns: "repeat(4, 1fr)",
   gap: 16,
 });
 
