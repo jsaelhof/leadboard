@@ -394,6 +394,22 @@
     {
       "id": "fluxx",
       "name": "Fluxx"
+    },
+    {
+      "id": "splendorduel",
+      "name": "Splendor Duel"
+    },
+    {
+      "id": "skullking",
+      "name": "Skull King"
+    },
+    {
+      "id": "supermegaluckybox",
+      "name": "Super Mega Lucky Box"
+    },
+    {
+      "id": "ingenious",
+      "name": "Ingenious"
     }
   ],
   "results": [
@@ -14118,6 +14134,955 @@
       "winner": "jason",
       "game": "rolltothetopjourneys",
       "date": "2024-04-08T02:13:00.784Z"
+    },
+    {
+      "id": "1d89315f-cb00-48e9-b091-d0354ff2ed2e",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "spacebase",
+      "date": "2024-04-09T01:24:51.975Z"
+    },
+    {
+      "id": "8959bae0-7982-4543-8e4d-db668250f23a",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "ashlyn",
+      "game": "gangofdice",
+      "date": "2024-04-09T02:28:41.694Z"
+    },
+    {
+      "id": "4b0f561e-edef-4ec0-ba8f-c72e753340d4",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "spacebase",
+      "date": "2024-04-11T03:14:51.503Z"
+    },
+    {
+      "id": "38465e78-2282-450f-97b0-144fca424162",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "cole",
+      "game": "piratenkapern",
+      "date": "2024-04-12T02:02:01.028Z"
+    },
+    {
+      "id": "23d890b9-ed45-415f-abf5-1e5e6a417cb1",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "incangold",
+      "date": "2024-04-12T02:12:40.449Z"
+    },
+    {
+      "id": "62f2525c-5c4e-4de8-a92e-3f3f7ef15374",
+      "players": [
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "cole",
+      "game": "sevenwondersarchitects",
+      "date": "2024-04-13T04:47:51.451Z"
+    },
+    {
+      "id": "089484c9-1562-4ad6-aa23-8af9e5b5e783",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "spacebase",
+      "date": "2024-04-13T15:24:41.164Z"
+    },
+    {
+      "id": "9f6aaedc-1b85-4997-8dad-8da262293d70",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "spacebase",
+      "date": "2024-04-14T20:10:18.122Z"
+    },
+    {
+      "id": "74cdb3cc-f317-48f6-aa8a-af9477bc24bf",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "splendor",
+      "date": "2024-04-15T02:46:29.151Z"
+    },
+    {
+      "id": "4a2f2709-2404-4180-b410-223ab62f4f7c",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "gonutsfordonuts",
+      "date": "2024-04-16T02:15:59.969Z"
+    },
+    {
+      "id": "7f016c77-f064-4fb4-97df-2e19e51dc893",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason"
+      ],
+      "winner": "ashlyn",
+      "game": "bagofchips",
+      "date": "2024-04-16T02:24:15.594Z"
+    },
+    {
+      "id": "76509e48-160e-435e-8d8a-e666418127d3",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason"
+      ],
+      "winner": "ashlyn",
+      "game": "luckynumbers",
+      "date": "2024-04-16T02:36:13.971Z"
+    },
+    {
+      "id": "ac00f527-b8d6-4b21-b0ae-6be6c450a80c",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "spacebase",
+      "date": "2024-04-16T02:51:19.529Z"
+    },
+    {
+      "id": "ba20c465-24a3-4397-92ed-0b4a41aae26e",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "spacebase",
+      "date": "2024-04-17T01:25:29.845Z"
+    },
+    {
+      "id": "b4c5ec6b-50b7-40ac-a41d-a862a2821c7d",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "spacebase",
+      "date": "2024-04-18T01:59:44.115Z"
+    },
+    {
+      "id": "449065b1-6b74-4e17-8c98-2a020d258eae",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "incangold",
+      "date": "2024-04-18T02:00:10.080Z"
+    },
+    {
+      "id": "0cb289e0-6f1e-4865-8c5a-98b539489286",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "spacebase",
+      "date": "2024-04-18T02:14:34.244Z"
+    },
+    {
+      "id": "3055347c-d98f-44a9-9c11-7d350e135b29",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "splendor",
+      "date": "2024-04-20T16:32:45.582Z"
+    },
+    {
+      "id": "031d52e1-09fd-4226-a75f-f4d1e967abed",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "sevenwondersduel",
+      "date": "2024-04-20T16:47:52.170Z"
+    },
+    {
+      "id": "b90cbed7-5fef-4316-89a4-2ef01a715853",
+      "players": [
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "cantstopexpress",
+      "date": "2024-04-20T20:11:39.745Z"
+    },
+    {
+      "id": "e2b8bc36-e6fd-4537-9118-f0d0055fdd92",
+      "players": [
+        "jason",
+        "lisa"
+      ],
+      "winner": "lisa",
+      "game": "rolltothetopjourneys",
+      "date": "2024-04-21T01:53:06.467Z"
+    },
+    {
+      "id": "bcd2f299-5799-46c2-9d4a-33197841d199",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "splendor",
+      "date": "2024-04-21T21:30:37.902Z"
+    },
+    {
+      "id": "b5a6cc03-26b4-4154-b4bf-386db9af8d2b",
+      "players": [
+        "ashlyn",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "incangold",
+      "date": "2024-04-22T02:08:38.984Z"
+    },
+    {
+      "id": "03125723-d282-4eb0-99f6-f6d13ef01e94",
+      "players": [
+        "ashlyn",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "qwixx",
+      "date": "2024-04-22T02:08:54.647Z"
+    },
+    {
+      "id": "18eb93a8-ce30-454e-9bb3-721c37b8d058",
+      "players": [
+        "ashlyn",
+        "jason"
+      ],
+      "winner": "ashlyn",
+      "game": "lostcities",
+      "date": "2024-04-22T02:09:27.747Z"
+    },
+    {
+      "id": "be5ccc0a-8bdd-4f72-b13b-57e7b8232d58",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "ashlyn",
+      "game": "captainflip",
+      "date": "2024-04-23T01:59:24.136Z"
+    },
+    {
+      "id": "938af2f4-3ef9-41db-96c8-de1394f98b26",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "spacebase",
+      "date": "2024-04-23T02:18:46.455Z"
+    },
+    {
+      "id": "699defb4-78fa-4055-9cbd-dd2476f14b78",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "spacebase",
+      "date": "2024-04-23T02:29:22.746Z"
+    },
+    {
+      "id": "d53cd727-7d11-4102-8960-5f31f56301a1",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "spacebase",
+      "date": "2024-04-25T00:51:43.494Z"
+    },
+    {
+      "id": "740de226-74d6-4811-ba6c-e1322658961d",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "splendorduel",
+      "date": "2024-04-25T01:41:59.448Z"
+    },
+    {
+      "id": "fd86c09d-2ae2-4327-9ba3-a04a3f8ac152",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "spacebase",
+      "date": "2024-04-26T23:04:30.479Z"
+    },
+    {
+      "id": "4372d936-4e0c-4c83-b467-8e90f50c12bf",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "spacebase",
+      "date": "2024-04-27T15:41:17.002Z"
+    },
+    {
+      "id": "8dc97808-d045-465a-8bd7-be510b57021c",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "lisa",
+      "game": "sechsnimmt",
+      "date": "2024-05-05T02:04:23.331Z"
+    },
+    {
+      "id": "4d22b583-a993-4bd9-a83e-9a972e76bc1f",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "lisa",
+      "game": "incangold",
+      "date": "2024-05-05T02:04:37.057Z"
+    },
+    {
+      "id": "6371a70e-cdca-41f7-a5ff-040b3cee0c65",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "rolltothetopjourneys",
+      "date": "2024-05-05T02:29:06.126Z"
+    },
+    {
+      "id": "2373204c-3d5b-4b8b-9f78-fab3b3682fcd",
+      "players": [
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "happycity",
+      "date": "2024-05-07T01:48:44.854Z"
+    },
+    {
+      "id": "b1f7c2aa-23f7-42eb-9d28-07345da91ee9",
+      "players": [
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "nextstation",
+      "date": "2024-05-07T02:02:31.357Z"
+    },
+    {
+      "id": "11433f37-29c4-4db7-bf14-b6bfafa9c7e6",
+      "players": [
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "lisa",
+      "game": "sevenwondersarchitects",
+      "date": "2024-05-07T02:17:14.584Z"
+    },
+    {
+      "id": "645fb811-dbbb-40e1-90be-79138b75e4c5",
+      "players": [
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "imhotep",
+      "date": "2024-05-08T02:10:41.806Z"
+    },
+    {
+      "id": "82068259-98f0-4d17-8ed4-7df75a66becd",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "spacebase",
+      "date": "2024-05-10T02:31:23.339Z"
+    },
+    {
+      "id": "2766dbd7-1780-4d62-a4dd-5570b1df8f09",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "splendorduel",
+      "date": "2024-05-10T02:59:45.326Z"
+    },
+    {
+      "id": "5f3c9133-6ee8-4f7e-851d-33b07a2e9445",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "spacebase",
+      "date": "2024-05-11T15:40:12.079Z"
+    },
+    {
+      "id": "6dc63d9e-3de8-447e-98d1-d618bc9705cd",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "skullking",
+      "date": "2024-05-12T22:53:47.827Z"
+    },
+    {
+      "id": "9fc86b86-996d-4b52-ba81-0893af1465ab",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "rolltothetopjourneys",
+      "date": "2024-05-13T01:30:15.012Z"
+    },
+    {
+      "id": "0b5a8de8-0f1d-4b84-9301-d11cfe9773ef",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "supermegaluckybox",
+      "date": "2024-05-23T01:47:17.249Z"
+    },
+    {
+      "id": "d5be2136-98f8-4af5-96c1-33fb19bc32d5",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "cole",
+      "game": "supermegaluckybox",
+      "date": "2024-05-23T02:05:35.293Z"
+    },
+    {
+      "id": "7dcc326c-0ac8-4ea2-9f36-f7d7017e59f5",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "cole",
+      "game": "supermegaluckybox",
+      "date": "2024-05-24T02:08:29.079Z"
+    },
+    {
+      "id": "143249e1-cce7-4e2f-9398-27614991888d",
+      "players": [
+        "ashlyn",
+        "jason"
+      ],
+      "winner": "ashlyn",
+      "game": "supermegaluckybox",
+      "date": "2024-05-25T00:00:20.566Z"
+    },
+    {
+      "id": "f0d51157-a398-4248-a6ee-d21f49a915ca",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "supermegaluckybox",
+      "date": "2024-05-26T02:36:28.321Z"
+    },
+    {
+      "id": "88bece67-d5e6-437c-b7ec-3615c4cfe2a0",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "spacebase",
+      "date": "2024-05-26T02:36:37.854Z"
+    },
+    {
+      "id": "884a2cca-58ed-4c8d-94b6-d44d66bf3fb2",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason"
+      ],
+      "winner": "ashlyn",
+      "game": "azul",
+      "date": "2024-05-29T01:15:01.480Z"
+    },
+    {
+      "id": "aae2f734-75ae-4946-bc68-1be898189ef3",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "cole",
+      "game": "supermegaluckybox",
+      "date": "2024-05-29T02:12:11.973Z"
+    },
+    {
+      "id": "77d9562b-724e-4a79-8b2c-411cc2d12135",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "captainflip",
+      "date": "2024-05-31T02:53:55.294Z"
+    },
+    {
+      "id": "30c44ede-9e98-4b2c-a8c3-9a3a38a53da9",
+      "players": [
+        "jason",
+        "lisa"
+      ],
+      "winner": "lisa",
+      "game": "rolltothetopjourneys",
+      "date": "2024-06-01T02:42:52.263Z"
+    },
+    {
+      "id": "e1585109-9564-41d7-932b-c085222a9c67",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "spacebase",
+      "date": "2024-06-06T00:42:20.771Z"
+    },
+    {
+      "id": "ba0aad9d-39fe-4a66-abc8-476a7d60a124",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "spacebase",
+      "date": "2024-06-08T16:49:36.606Z"
+    },
+    {
+      "id": "4560b8e1-bf0a-4feb-a6fa-9f28a52c1338",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "lisa",
+      "game": "supermegaluckybox",
+      "date": "2024-06-16T22:24:21.430Z"
+    },
+    {
+      "id": "52268e68-6727-499f-ace9-5ca22bbb071d",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "spacebase",
+      "date": "2024-06-22T20:42:08.960Z"
+    },
+    {
+      "id": "b18de931-6a92-4090-bed5-d195c9e1dd5d",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "cole",
+      "game": "cantstop",
+      "date": "2024-06-27T02:27:12.992Z"
+    },
+    {
+      "id": "03244b82-f6a1-4d18-b3d9-0eb839913d3a",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "lisa",
+      "game": "rolltothetopjourneys",
+      "date": "2024-06-27T02:27:25.967Z"
+    },
+    {
+      "id": "019fd421-5985-4c94-a487-31172c5ab054",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "cole",
+      "game": "spacebase",
+      "date": "2024-06-29T21:17:35.408Z"
+    },
+    {
+      "id": "97ab57aa-d8c7-4683-a98f-1bada889f14b",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "ashlyn",
+      "game": "sechsnimmt",
+      "date": "2024-06-30T20:20:10.630Z"
+    },
+    {
+      "id": "9bece945-76e4-47be-8683-8da4fd3e1389",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "lisa",
+      "game": "gangofdice",
+      "date": "2024-07-01T18:34:24.854Z"
+    },
+    {
+      "id": "d43dc664-c74b-4c62-b6f2-c8cd6d3eeb97",
+      "players": [
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "sevenwondersarchitects",
+      "date": "2024-07-01T18:45:36.524Z"
+    },
+    {
+      "id": "83099cc6-cb93-4298-9943-750f585ec962",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "jason",
+      "game": "spacebase",
+      "date": "2024-07-04T17:18:25.071Z"
+    },
+    {
+      "id": "b6eef102-d65b-4cd8-b3b5-0f75b059876c",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "imhotep",
+      "date": "2024-07-05T22:46:38.514Z"
+    },
+    {
+      "id": "fc507f8b-3cd6-4a0b-ba64-ebeb3808d8fb",
+      "players": [
+        "ashlyn",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "cantstop",
+      "date": "2024-07-06T18:03:23.316Z"
+    },
+    {
+      "id": "48e81515-c57c-4ca8-8d1a-327b4c5f6088",
+      "players": [
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "cole",
+      "game": "rolltothetopjourneys",
+      "date": "2024-07-21T01:54:35.207Z"
+    },
+    {
+      "id": "7cf2c6b8-c27c-4b73-8b89-ea57d0bb2a89",
+      "players": [
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "sevenwondersarchitects",
+      "date": "2024-07-21T02:08:57.015Z"
+    },
+    {
+      "id": "f816faa4-1201-4492-866a-b12bbfd9d65c",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "spacebase",
+      "date": "2024-08-02T15:53:01.738Z"
+    },
+    {
+      "id": "4185f901-7e26-4830-804f-891c64307079",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "spacebase",
+      "date": "2024-08-02T16:05:25.514Z"
+    },
+    {
+      "id": "f979f00a-b46b-459d-a412-113c462fa1c0",
+      "players": [
+        "ashlyn",
+        "jason",
+        "lisa"
+      ],
+      "winner": "lisa",
+      "game": "supermegaluckybox",
+      "date": "2024-08-11T23:59:29.048Z"
+    },
+    {
+      "id": "95dccc47-39e7-4fe5-9376-28dc0e9bcb65",
+      "players": [
+        "ashlyn",
+        "jason",
+        "lisa"
+      ],
+      "winner": "lisa",
+      "game": "bagofchips",
+      "date": "2024-08-12T00:11:43.969Z"
+    },
+    {
+      "id": "d375d34f-73ef-47d1-9e85-d8272bf4dc99",
+      "players": [
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "happycity",
+      "date": "2024-08-12T00:25:29.591Z"
+    },
+    {
+      "id": "17d2d0c3-3f7d-4c2f-ae76-8f550d6dcebe",
+      "players": [
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "biomos",
+      "date": "2024-08-14T02:01:27.644Z"
+    },
+    {
+      "id": "9d323ec7-cefe-4208-a371-b597f976bca7",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "lisa",
+      "game": "cantstopexpress",
+      "date": "2024-08-15T02:03:06.127Z"
+    },
+    {
+      "id": "c3b37b90-5bfd-4793-9e0b-263f2ce5bdb6",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "ingenious",
+      "date": "2024-08-16T02:18:18.805Z"
+    },
+    {
+      "id": "8b5450c5-d980-426b-a96e-bf6278875774",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason"
+      ],
+      "winner": "ashlyn",
+      "game": "piratenkapern",
+      "date": "2024-08-16T02:43:30.703Z"
+    },
+    {
+      "id": "663fc425-0cfc-4ad9-8c5e-ec3face999a3",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "spacebase",
+      "date": "2024-08-21T02:16:32.349Z"
+    },
+    {
+      "id": "56989a2d-9f5c-4f54-941d-c8e87447b131",
+      "players": [
+        "cole",
+        "jason"
+      ],
+      "winner": "cole",
+      "game": "spacebase",
+      "date": "2024-08-21T02:29:21.613Z"
+    },
+    {
+      "id": "68d45852-afc7-44ad-921e-bb86a82b9392",
+      "players": [
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "lisa",
+      "game": "incangold",
+      "date": "2024-08-22T03:11:28.184Z"
+    },
+    {
+      "id": "99776c65-8d3a-4ef4-b362-dfb9c7a00c6c",
+      "players": [
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "cole",
+      "game": "luckynumbers",
+      "date": "2024-08-22T03:30:00.459Z"
+    },
+    {
+      "id": "6b2fda39-57ba-4c82-bc6e-9e454724f0a1",
+      "players": [
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "supermegaluckybox",
+      "date": "2024-08-23T02:48:49.695Z"
+    },
+    {
+      "id": "12c39aa6-5f6f-4362-88fc-505b08a78dd4",
+      "players": [
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "cole",
+      "game": "kingoftokyo",
+      "date": "2024-08-23T03:05:37.048Z"
+    },
+    {
+      "id": "6cd53775-3a9e-410a-916d-dda87349fee1",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "piratenkapern",
+      "date": "2024-09-04T01:41:51.186Z"
+    },
+    {
+      "id": "83bd8d74-846e-4ce9-9e0b-ca40d89e80e3",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "jason",
+      "game": "martiandice",
+      "date": "2024-09-04T23:56:42.905Z"
+    },
+    {
+      "id": "7e671373-a18e-4825-8ad1-007273320f28",
+      "players": [
+        "ashlyn",
+        "cole",
+        "jason",
+        "lisa"
+      ],
+      "winner": "lisa",
+      "game": "incangold",
+      "date": "2024-09-05T00:10:23.428Z"
     }
   ]
 }

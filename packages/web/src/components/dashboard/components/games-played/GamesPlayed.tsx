@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { Result } from "../../../../types";
 import { useAppContext } from "../../../../context/AppContext";
-import { format, isSameDay, parseISO, subHours } from "date-fns";
+import { format, isSameDay, isThisYear, parseISO, subHours } from "date-fns";
 import {
   ColumnHeader,
   GameDate,
@@ -34,7 +34,10 @@ export const GamesPlayed = ({ results }: GamesPlayedProps) => {
             <Fragment key={id}>
               <GameDate>
                 {i === 0 || !isSameDay(date, prevDate)
-                  ? format(subHours(date, 6), "MMM dd")
+                  ? format(
+                      subHours(date, 6),
+                      isThisYear(date) ? "MMM dd" : "MMM dd, yyyy"
+                    )
                   : null}
               </GameDate>
               <div>{gamesById[game].name}</div>
