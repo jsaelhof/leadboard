@@ -31,36 +31,38 @@ export const SelectPlayers = React.memo(() => {
         <div>All-time Leaderboard</div>
       </SwitchLayout>
 
-      <PlayersLayout>
-        {players.map(({ id, name }) => (
-          <div
-            key={id}
-            style={{
-              pointerEvents: allResults ? "none" : "auto",
-              opacity: allResults ? 0.25 : 1,
-            }}
-          >
-            <input
-              type="checkbox"
-              id={id}
-              name={id}
-              value={id}
-              checked={selectedPlayers.includes(id)}
-              onChange={({ target: { checked, value } }) =>
-                (checked || (!checked && selectedPlayers.length > 2)) &&
-                setSelectedPlayers(
-                  checked
-                    ? [...selectedPlayers, value]
-                    : [...selectedPlayers].filter(
-                        (playerId) => playerId !== value
-                      )
-                )
-              }
-            />
-            <label htmlFor={id}> {name}</label>
-          </div>
-        ))}
-      </PlayersLayout>
+      {!allResults && (
+        <PlayersLayout>
+          {players.map(({ id, name }) => (
+            <div
+              key={id}
+              style={{
+                pointerEvents: allResults ? "none" : "auto",
+                opacity: allResults ? 0.25 : 1,
+              }}
+            >
+              <input
+                type="checkbox"
+                id={id}
+                name={id}
+                value={id}
+                checked={selectedPlayers.includes(id)}
+                onChange={({ target: { checked, value } }) =>
+                  (checked || (!checked && selectedPlayers.length > 2)) &&
+                  setSelectedPlayers(
+                    checked
+                      ? [...selectedPlayers, value]
+                      : [...selectedPlayers].filter(
+                          (playerId) => playerId !== value
+                        )
+                  )
+                }
+              />
+              <label htmlFor={id}> {name}</label>
+            </div>
+          ))}
+        </PlayersLayout>
+      )}
     </Layout>
   );
 });

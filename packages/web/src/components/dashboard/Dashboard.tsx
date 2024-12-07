@@ -8,6 +8,7 @@ import { AddResult } from "./components/add-result/AddResult";
 import { AddGame } from "./components/add-game/AddGame";
 import { Layout, LayoutLeaderboard } from "./Dashboard.styles";
 import Stats from "./components/stats/Stats";
+import { ResultShortcuts } from "./components/result-shortcuts/ResultShortcuts";
 
 export const Dashboard = () => {
   const { players, results, allPlayers, selectedPlayers, allResults } =
@@ -68,6 +69,18 @@ export const Dashboard = () => {
   return (
     <div>
       <SelectPlayers />
+
+      {/* FIXME: This config of player combinations and the games to set as a shortcut for each should be externalized. */}
+      {!allResults &&
+        selectedPlayers.length === 2 &&
+        selectedPlayers.includes("jason") &&
+        selectedPlayers.includes("cole") && (
+          <ResultShortcuts
+            gameIds={["spacebase", "sevenwondersduel"]}
+            playerIds={["jason", "cole"]}
+          />
+        )}
+
       {selectedPlayers.length >= 2 ? (
         <Layout>
           {!allResults && (
