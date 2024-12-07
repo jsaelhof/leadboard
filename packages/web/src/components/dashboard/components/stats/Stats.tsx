@@ -1,6 +1,6 @@
 import { Result } from "../../../../types";
 import { Layout } from "./Stats.styles";
-import BestGame from "./components/best-game/BestGame";
+import TopGames from "./components/top-games/TopGames";
 import WinnersByGame from "./components/winners-by-game/WinnersByGame";
 
 export type StatsProps = {
@@ -12,7 +12,7 @@ const Stats = ({ results }: StatsProps) => {
     <div>
       <h3>Stats</h3>
       <Layout>
-        <BestGame results={results} />
+        <TopGames results={results} />
         <WinnersByGame results={results} />
       </Layout>
     </div>
