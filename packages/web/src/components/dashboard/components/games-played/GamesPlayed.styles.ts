@@ -1,6 +1,11 @@
 import { styled } from "@stitches/react";
 
 export const Layout = styled("div", {
+  display: "flex",
+  gap: 24,
+});
+
+export const ListLayout = styled("div", {
   display: "grid",
   gridTemplateColumns: "max-content max-content auto",
   columnGap: 32,
